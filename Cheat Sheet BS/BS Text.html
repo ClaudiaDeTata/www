@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Cheat Sheet</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <style>
+	  .text-left {
+	     text-align: left; 
+		 }
+	  .text-right {
+	    text-align: right; 
+		}
+	</style>
+  </head>
+  <body>
+   <!-- Navbar starts here, will expand for lg, xl and xxl screens, otherwise it's a collapsed navbar -->
+  <nav class="navbar navbar-expand-lg bg-success">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	<!-- ms=margin start auto, as much margin on the left as it's possible; mb-2=adds a margin bottom of 0.5rem (8px); mb-lg-0=margin bottom 0 for lg devices -->
+      <ul class="navbar-nav ms-auto mb-3 mb-lg-0 text-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="home BS.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="BS Layouts.html">Layouts</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="BS Navbar.html">Navbar</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="BS Text.html">Text&Typography</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="BS List.html">List&Elements</a>
+        </li>
+		</ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container border p-3 border-success text-dark">
+  <h1 class="text-center">TEXT & TYPOGRAPHY</h1>
+    <h5>Text Alignment</h5>
+    <div class="row">
+      <div class="col border p-2 border-dark text-dark">
+	    <p class="text-start">Start-aligned text</p>
+		  <p class="text-center">Centered text</p>
+		    <p class="text-end">End aligned text</p>
+		      <p class="text-left">We can also use left alignment tag.</p>
+			    <p class="text-right">Or right alignment tag.</p> 
+		 
+	  </div>
+	 
+	<h5>Text Wrapping and Overflow</h5>
+      <div class="col-1 border p-2 border-dark text-dark">
+	    <p class="text-wrap">This text will wrap.</p>
+	  </div>
+	  <div class="col-1 offset-md-9 border p-2 border-dark text-dark">
+	    <p class="text-nowrap">This text won't wrap</p>
+	  </div>
+	
+<h5>Word Break</h5>	
+  <div class="col-12 border p-2 border-dark text-dark">
+    <p class="text-break">Thisunbreakabletextwillnotbreakandwrapontothenextline.Thisunbreakabletextwillnotbreakandwrapontothenextline.Thisunbreakabletextwillnotbreakandwrapontothenextline.Thisunbreakabletextwillnotbreakandwrapontothenextline.
+   </p>
+	 </div>
+	
+	
+<h5 class="text-start">Text Transform</h5><h5 class="text-center">Font Size</h5> <h5 class="text-end">Font Weight and Italics</h5>
+ <div class="col-4 border p-2 border-dark text-dark">
+ <p class="text-lowercase">This is lowercase text</p>
+ <p class="text-uppercase">This is uppercase text</p>
+ <p class="text-capitalize">And then capitalized text</p>
+ </div>
+
+<div class="col-4 border p-2 border-dark text-dark">
+  <p class="fs-1">This text is big size 1</p>
+  <p class="fs-2">This text is big size 2</p>
+  <p class="fs-3">This text is big size 3</p> 
+  <p class="fs-4">This text is big size 4</p>
+  <p class="fs-5">This text is small size 5</p>
+  <p class="fs-6">This text is small size 6</p> 
+ </div>
+
+<div class="col-4 border p-2 border-dark text-dark">
+ <p class="fw-bold">This is bold text</p>
+ <p class="fw-bolder">This is boldER text</p>
+ <p class="fw-semibold">This is semibold text</p>
+ <p class="fw-medium">This is medium text</p>
+ <p class="fw-normal">This is normal text</p>
+ <p class="fw-light">This is light text</p>
+ <p class="fw-lighter">This is lighter text</p>
+ </div>
+ 
+<h5>Line Heigth</h5> 
+  <div class="col border p-2 border-dark text-dark">
+    <p class="lh-1">NO LH:Make the base: Put the flour into a large bowl, then stir in the yeast and salt. Make a well, pour in 200ml warm water and the olive oil and bring together with a wooden spoon until you have a soft, fairly wet dough. Turn onto a lightly floured surface and knead for 5 mins until smooth. Cover with a tea towel and set aside. You can leave the dough to rise if you like, but it’s not essential for a thin crust.</p>
+	<p class="lh-sm">SMALL LH:Make the base: Put the flour into a large bowl, then stir in the yeast and salt. Make a well, pour in 200ml warm water and the olive oil and bring together with a wooden spoon until you have a soft, fairly wet dough. Turn onto a lightly floured surface and knead for 5 mins until smooth. Cover with a tea towel and set aside. You can leave the dough to rise if you like, but it’s not essential for a thin crust.</p>
+	<p class="lh-base">BASE LH:Make the base: Put the flour into a large bowl, then stir in the yeast and salt. Make a well, pour in 200ml warm water and the olive oil and bring together with a wooden spoon until you have a soft, fairly wet dough. Turn onto a lightly floured surface and knead for 5 mins until smooth. Cover with a tea towel and set aside. You can leave the dough to rise if you like, but it’s not essential for a thin crust.</p>
+	<p class="lh-lg">LARGE LH:Make the base: Put the flour into a large bowl, then stir in the yeast and salt. Make a well, pour in 200ml warm water and the olive oil and bring together with a wooden spoon until you have a soft, fairly wet dough. Turn onto a lightly floured surface and knead for 5 mins until smooth. Cover with a tea towel and set aside. You can leave the dough to rise if you like, but it’s not essential for a thin crust.</p>
+  </div>
+  
+<h5>Monospace</h5>
+  <div class="col border p-2 border-dark text-dark">
+    <p class="font-monospace">I don't know what is monospace, so I guess I will see it now.</p>
+  </div>
+  
+<h5>Reset Color</h5>
+  <div class="col border p-2 border-dark text-dark">
+    <p class="text-body-secondary">This <a href="https://en.wikipedia.org/wiki/Pizza" class="text-reset">text</a> was supposed to be blue, but it is not anymore, thanks to text-reset.</p>
+  </div>
+ 
+<h5>Text Decoration</h5>
+  <div class="col border p-2 border-dark text-dark">
+    <p class="text-decoration-underline">This text has an underline.</p>
+	<p class="text-decoration-line-through">This text has a line through it.</p>
+	<a href="https://en.wikipedia.org/wiki/Pizza" class="text-decoration-none">This link does not have the usual line below.</a>
+  </div> 
+  
+<h5>Headings</h5>
+  <div class="col border p-2 border-dark text-dark">
+    <p>All html headings are available from h1 to h6.</p>
+    <p class="h6">.h1 through .h6 are also available as classes.</p>
+    <p>Bootstrap also has Display headings available from display-1 to display-6.</p>
+	<h1 class="display-1">Display 1</h1>
+	<h1 class="display-6">Display 6</h1>
+  </div>
+  
+<h5>Lead</h5>
+  <div class="col border p-2 border-dark text-dark">
+    <p class="lead">This is a paragraph that will stand out from regular paragraphs.</p>
+  </div>
+
+<h5>Inline Text Elements</h5>
+   <div class="col border p-2 border-dark text-dark">
+     <p>This tag will<mark>highlight</mark>the text.</p>
+     <p><del>This tag means the text should be treated as deleted text.</del></p>
+     <p><s>This tag indicate the text is no longer accurate.</s></p>
+     <p><ins>This is meant to be considered as an addition to the document.</ins></p>
+     <p><u>This is underlined text.</u></p>
+     <p><small>This text is meant to be treated as fine print.</small></p>
+     <p><strong>This text is bold.</strong></p>
+     <p><em>This is italic text.</em></p>
+     <p>All of these tags can also be used as classes (see above).</p>
+   </div>
+   
+<h5>Abbreviations</h5>
+   <div class="col border p-2 border-dark text-dark">
+     <p><abbr title="attribute">attr</abbr></p>
+     <p><abbr title="Hypertext Markup Language" class="initialism">HTML</abbr></p>
+   </div>
+ 
+<h5>Blockquotes</h5> 
+  <div class="col border p-2 border-dark text-dark">
+     <blockquote class="blockquote">
+	   <p>This tag allows me to contain my text in a blockquote element.</p>
+	 </blockquote> 
+	 
+  <figure>
+    <blockquote class="blockquote">
+      <p>This provides an attribution to my blockquote element.</p>
+        <figcaption class="blockquote-footer">The name of the person in <cite Title="The Title">The Title</cite>
+      </figcaption>
+    </blockquote>
+  </figure>
+</div>
+   
+<h5>D-Flex</h5>
+  <div class="col border p-2 border-dark text-dark">
+    <p>D-flex: display flex utility, to create a flexbox container and transform direct children elements into flex items.</p>
+      <div class="d-flex border p-2 border-dark">This is a flexbox container<div class="d-flex-inline border p-2 border-dark">This is an inline flexbox container</div></div>
+  </div>
+
+ 
+
+  </div>
+</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Cheat Sheet</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  </head>
+  <body>
+   <!-- Navbar starts here, will expand for lg, xl and xxl screens, otherwise it's a collapsed navbar -->
+  <nav class="navbar navbar-expand-lg bg-danger">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	<!-- ms=margin start auto, as much margin on the left as it's possible; mb-2=adds a margin bottom of 0.5rem (8px); mb-lg-0=margin bottom 0 for lg devices -->
+      <ul class="navbar-nav ms-auto mb-3 mb-lg-0 text-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="home BS.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="BS Layouts.html">Layouts</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="BS Navbar.html">Navbar</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="BS Text.html">Text&Typography</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="BS List.html">List&Elements</a>
+        </li>
+		</ul>
+    </div>
+  </div>
+</nav>
+  <h1 style="text-align:center">BOOTSTRAP CHEAT SHEET</h1>
+    <h4 style="text-align:center">BOOTSTRAP LAYOUTS</h4>
+  <!-- Container starts here -->
+    <div class="container">
+	<p style="text-align:center" class="text-danger"><strong>CONTAINER</strong></p>
+	  <!-- Row starts here -->
+      <div class="row g-1">
+	    <!-- Col1 starts here, wide 9 cols and border with 1rem (16px) on all sides -->
+        <div class="col-9 border p-3 border-dark text-dark">
+	      
+			<!-- text strong and center aligned -->
+			<p style="text-align:center" class="text-danger"><strong>ROW</strong></p>
+			<div class="border border-dark">
+			<p style="text-align:center" class="text-danger"><strong>COL1 (9)</strong></p>
+			 <h5>Grids</h5>
+			 The grid system is a responsive layout system, which allows to organize the content into rows and columns. 
+			 It is based on a 12-col layout.
+			 The grid system supports 6 responsive breakpoints, they affects the mentioned bp and all those above it. (sm,md,lg,xl,xxl).
+			   </div>
+			   <div class="border border-dark">
+	           <h5>Containers</h5>
+			   Class used to provide a responsive fixed-width container. These provides padding and margins, making sure the content is centered and stays within a specified width.
+			     <ol>
+				   <li>.container = max-width;</li>
+				   <li>.container-(breakpoint) = 100% width until the breakpoint (sm,md,lg,xl,xxl);</li>
+				   <li>.container-fluid = 100% at all breakpoints.</li>
+				  </ol>
+				    </div>
+					<div class="border border-dark">
+				      <h5>Rows</h5>
+					Rows are wrappers for cols, each one with horizontal padding called Gutter.
+					</div>
+					<div class="border border-dark">
+					  <h5>Columns</h5>
+					  In each row the available columns are 12. The width of the cols is defined for example as col-4 (4 template cols).
+					  </div>
+					   <div class="border border-dark">
+                  <h5>Gutters</h5>
+						Gaps between cols (24px or 1.5rem).
+			</div> 
+						 </div>
+			<!-- Col2 starts here, wide 3 cols and border with 1rem (16px) on all sides. D-flex=display utility that creates a flexbox container and transform direct children elements into flex items. Here used to center the text together with align-items-center and justify-content-center -->			 
+		<div class="col-3 border p-3 border-dark text-danger d-flex align-items-center justify-content-center">
+		<p><strong>COL2 (3)</strong></p>
+	  </div> 
+	  <!-- Gutter 4 y axis starts here, justify-content-center for the text -->
+	  <p class="text-danger d-flex justify-content-center"><strong>GUTTER Y AXIS</strong></p>
+	  <div class="col-5 gy-4 border border-dark ">
+		<p><strong>COL3 (5)</strong></p>
+		</div>
+		<!-- offset is used to add an offset col, in this case 2 empty cols -->
+		<div class="col-5 gy-4 offset-md-2 border border-dark">This is useful to add an <strong>offset</strong> col</div>
+		</div>
+		 </div> 
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+	    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  </body>
+</html>
