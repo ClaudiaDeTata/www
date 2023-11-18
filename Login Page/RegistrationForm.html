@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <title>Bootstrap Registration Page</title>
+		  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+		    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+			  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+			  	</head> 
+				 <!-- bg-img set for body, image repeated vertically -->
+		          <body class="bg-danger bg-image" style="background-image: url('redsoil.jpg'); height: 100%; background-repeat: repeat-y; background-position: center;">
+				  
+				   <div class="container d-flex justify-content-center m-2 text-danger fw-bolder">
+				     <!-- box positioned relatively to container, at 50% from top and left edge, translate has centering effect -->
+				     <div class="box border p-4 border-danger bg-light position-absolute top-50 start-50 translate-middle">
+				     <div class="row">
+				     
+				         <div class="col">
+						   <p class="text-danger text-center">Register here:</p>
+						 </div>
+						        <!-- form starting -->
+							    <form class="row-cols">
+								  <div class="col ml-5">
+								   <label for="name" class="form-label">Name</label>
+								   <input type="text" class="form-control" id="name" required>
+								  </div>
+								  
+								  <div class="col ml-5">
+								    <label for="email" class="form-label">Email Address</label>
+									<input type="text" class="form-control" id="email" required>
+								  </div>
+								  
+								  <div class="col ml-5">
+								    <label for="phonenumber" class="form-label">Phone Number</label>
+								    <input type="number" class="form-control" id="phonenumber">
+								  </div>
+								  
+								  <div class="col ml-5">
+								    <label for="dob" class="form-label">Date of Birth</label>
+								    <input type="date" class="form-control" id="dob" required>
+								  </div>
+								  
+								  <div class="col ml-5">
+								    <label for="password" class="form-label">Password</label>
+									<input type="password" class="form-control" id="password">
+								  </div>
+								  
+								   <div class="col ml-5">
+								    <label for="password" class="form-label">Confirm Password</label>
+									<input type="password" class="form-control" id="password">
+								  </div>
+								  
+								  <button class="btn btn-danger" type="button">Register</button>
+								
+								  <a class="btn btn-danger float-end" href="LoginForm.html" role="button">Login</a>
+								 </div>
+								</div>
+							  </div>
+		         </body>
+			  </html>
