@@ -211,9 +211,33 @@
 			  </form>
 			</div>	
 			
-			
-			
-			
+	<h5>Alerts</h5> 
+	  <div class="col border p-2 border-dark text-dark">
+	    <p>Alert messages are used to communicate something to the user.</p>
+		  <div class="alert alert-warning" role="alert">
+		  This is an alert in warning color.
+		  </div>
+		    <p>This will only convey a visual message, so, to make sure we correctly provide the message to assistive technologies too, we will need to use for example additional hidden text.</p>
+			  <h6 class="visually-hidden">This is how to add visually hidden elements, taht will be only read by screen readers.</h6>
+			    <div class="visually-hidden-focusable">This will permit the user to focus on an element (ex. keyboard-only users).
+				</div>
+	  
+	  <h6>Live Alerts</h6>
+	    <div id="liveAlertPlaceholder"></div>
+		  <button type="button" class="btn btn-warning" id="liveAlertBtn">This is a live alert!</button>
+      <br>
+	  <br>
+      <h6>Additional Content</h6>
+        <div class="alert alert-warning" role="alert">
+		  <h6 class="alert-heading">Alert-heading</h6>
+		    <p>This is a message to show an alert can have headings, paragraphs and dividers, so to include a longer and more complete message for the user.</p>
+			  <hr>
+			    <p>This is another message to show further contents we can add to an alert.</p>
+		</div>	
+
+
+		
+		</div>	
 			
 			
 			
