@@ -150,7 +150,7 @@
 	<h5>Horizontal Rules</h5>
 	  <div class="col border p-2 border-dark text-dark">
 	    <div class="text-dark">Here below a black horizontal line will appear. It can be styled in the class element, as in the example.
-		  <hr class="border border-dark border-5 opacity-25">
+		  <hr class="border border-dark border-5 opacity-100">
 		 </div>
 	  </div> 
 	
@@ -234,13 +234,41 @@
 			  <hr>
 			    <p>This is another message to show further contents we can add to an alert.</p>
 		</div>	
-
-
+	  </div>	
 		
-		</div>	
-			
-			
-			
+    <h5>Buttons</h5>
+      <div class="col border p-2 border-dark text-dark">
+	    <p><strong>Default buttons</strong> can be created in every BS color.</p>
+		  <button type="button" class="btn btn-primary">Primary button</button>
+		  <button type="button" class="btn btn-secondary">Secondary button</button>
+		  <button type="button" class="btn btn-warning">Warning button</button>
+		  <button type="button" class="btn btn-success">Success button</button>
+		  <button type="button" class="btn btn-danger">Danger button</button>
+		  <button type="button" class="btn btn-info">Info button</button>
+		  <button type="button" class="btn btn-light">Light button</button>
+		  <button type="button" class="btn btn-dark">Dark button</button>
+		  
+		  <button type="button" class="btn btn-link">Link button</button>
+		  
+	    <p>Text wrapping can be disabled adding .text-nowrap to the class like in this case</p>
+		  <button type="button" class="btn btn-warning text-nowrap">Disable text-wrapping: the text is a long one, so I can see how this works.</button>
+	      <button type="button" class="btn btn-warning">Enable text-wrapping: in this case I will see the text wrapping, for this reason the sentence will need to be longer than the previous.</button>
+		
+		<p>Buttons can also be used with -a- or -input- elements.</p>
+		  <a class="btn btn-warning" href="https://getbootstrap.com/docs/5.2/components/buttons/" role="Button">This will work as a link.</a>
+		  <input class="btn btn-warning" type="reset" value="Reset">
+		  <input class="btn btn-warning" type="submit" value="Submit">
+		<br>
+		<br>
+		<p><strong>Outline buttons</strong> removes the background color and images on buttons.</p>
+	      <button type="button" class="btn btn-outline-warning">This is an outline button</button>
+		<br>
+		<br>
+		<p>We can also give the button different sizes.</p>
+		  <button type="button" class="btn btn-warning btn-lg">Large button</button>
+		  <button type="button" class="btn btn-warning btn-sm">Small button</button>
+		  <button type="button" class="btn btn-warning" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Custom button</button>
+	  </div>			
   </div>
 
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
