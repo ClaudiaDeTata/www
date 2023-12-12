@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>JavaScript Activity 1 - Control Statements</title>
+  </head>
+  
+  <body>
+    <script>
+      
+      let number1 = prompt("Enter the first number: ")
+          console.log(number1);
+          
+      let number2 = prompt("Enter the second number: ")
+          console.log(number2);    
+          
+      let number3 = prompt("Enter the third number: ")
+          console.log(number3);
+          
+       // check if the numbers are all equal   
+      if (number1 === number2 && number2 === number3 && number1 === number3) {
+        console.log("All numbers are equal");
+        
+       // check if the numbers are all different
+      } else if (number1 !== number2 && number2 !== number3 && number1 !== number3) {
+        console.log("All numbers are different");
+        
+       // check if the numbers are nor equal nor different 
+      } else if (number1 !== number2 || number2 !== number3 || number1 !== number3) { 
+        console.log("Neither all are equal or different");
+      }
+      
+    </script>
+  
+  </body>
+</html>

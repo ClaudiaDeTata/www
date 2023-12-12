@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>JavaScript Activity 2 - Control Statements</title>
+  </head>
+  
+  <body>
+    <script>
+     
+     let value1 = prompt("Input first number: ") 
+       console.log(value1);
+       
+     let value2 = prompt("Input second number: ")  
+       console.log(value2);
+       
+     let value3 = prompt("Input third number: ")
+       console.log(value3);
+     
+     // condition number 1: decreasing values
+     if (value1 > value2 && value2 > value3 && value1 > value3) {
+       console.log("Decreasing order");
+       
+     // condition number 2: increasing values
+     } else if (value1 < value2 && value2 < value3 && value1 < value3) {
+       console.log("Increasing order");
+       
+     // conditon number 3: neither of the previous two conditions
+     } else {
+       console.log("Neither increasing or decreasing order");
+     }
+      
+    </script>
+  
+  </body>
+</html>
