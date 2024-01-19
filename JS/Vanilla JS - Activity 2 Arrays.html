@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>JavaScript Activity 2 Arrays</title>
+  </head>
+  
+  <body>
+    <script>
+      
+      // array declaration
+      const arr = [20, 30, 25, 35, -16, 60, -100];
+      // declaring initial value f sum
+      let sum = 0;
+      // declaring array length
+      let arlen = arr.length;
+       
+      // for loop to calculate sum
+      for (let i = 0; i < arlen; i++) {
+        sum += arr[i];            
+      }
+      
+        // declaring the variable used to calcuate the average
+        const aver = (sum / arlen).toFixed(1); 
+        // printing the result
+        console.log(`Average value of the array elements is : ${aver}.`); 
+  
+    </script>
+  
+  </body>
+</html>

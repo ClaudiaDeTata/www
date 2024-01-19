@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>JavaScript Activity 3 Arrays</title>
+  </head>
+  
+  <body>
+    <script>
+      
+      // array declaration of sample data
+      const arr = [25, 14, 56, 15, 36, 56, 77, 18, 29, 49];
+      // initializing values max and min to first element of the array
+      let maxArr = arr[0];
+      let minArr = arr[0];
+      
+      // for loop that initializes i with value = 1, condition for the loop to continue until i is not < to the array length, for every iteration i is incremented by 1
+      for ( let i = 1; i < arr.length; i++ ) {
+        if (arr[i] > maxArr) {
+          maxArr = arr[i];    
+        } else if (arr[i] < minArr) {
+          minArr = arr[i]; 
+        }
+      }
+      
+      console.log(`Original Array: [${arr}]`);
+      console.log(`Maximum value for the above array: ${maxArr}`);
+      console.log(`Minimum value for the above array: ${minArr}`);
+      
+      /*
+      arr.sort()
+       
+      console.log(`Original Array: ${arr}`);
+      console.log(`Maximum value for the above array: ${arr[9]}`);
+      console.log(`Minimum value for the above array: ${arr[0]}`);
+      */
+      
+    </script>
+  
+  </body>
+</html>
