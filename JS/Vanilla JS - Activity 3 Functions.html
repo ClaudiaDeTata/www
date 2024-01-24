@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>JavaScript Activity 3 Functions</title>
+  </head>
+  
+  <body>
+    <script>
+      
+      // function calling n as a number taken as parameter
+      function isPrime(n) {
+      // exclusion of negative numbers and non-integers
+        if ( n <= 1 || n % 1 !== 0 ) {
+          return false;
+       } 
+       // for loop that initializes the variable with the first prime number, check the number as long as this is less than or equal to its square root and increment i up to sqrt
+         for ( let i = 2; i <= Math.sqrt(n); i++ ) {
+      // exclusion of n with remainder = 0 if divided by 2
+          if ( n % i === 0 ) {
+          return false;
+          }
+       }
+        return true;
+        }
+       
+      console.log(isPrime(2));    
+      console.log(isPrime(5)); 
+      console.log(isPrime(9)); 
+      console.log(isPrime(15)); 
+      console.log(isPrime(28)); 
+      console.log(isPrime(37)); 
+      console.log(isPrime(-2)); 
+      console.log(isPrime(55.5)); 
+       
+    </script>
+  
+  </body>
+</html>

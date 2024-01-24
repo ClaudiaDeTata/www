@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>JavaScript Activity 2 Functions</title>
+  </head>
+  
+  <body>
+    <script>
+     
+    // prompting the user to enter a number
+    let n = parseInt(prompt("Please, enter a number: "));
+    
+    // function calling n as an argument
+    function factorial(n) {
+    // if-statement returning the factorial of 0 
+      if (n === 0) {
+        return 1;
+    // calculation of the factorial of the selected number
+      } else {
+        return n * factorial( n - 1 );
+      }
+    }
+    
+    // printing the result
+    console.log(factorial(n));
+   
+    </script>
+  
+  </body>
+</html>
