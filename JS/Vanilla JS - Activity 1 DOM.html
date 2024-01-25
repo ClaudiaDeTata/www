@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset=utf-8 />
+        <title>Activity 1 - Vanilla JS DOM</title>
+    </head> 
+    <body>
+        <p id ='text'>Vanilla JS DOM</p> 
+        <div>
+        <!-- creation of an onclick event for the button-->
+        <button id="jsstyle"
+        onclick="js_style()">Style</button>
+        </div>
+       
+        <script>
+          // function definition
+          function js_style() {
+          // use of HTML DOM to get the element with id="text" and change its style
+            let x = document.getElementById("text");
+              // set backgrund-color to red
+              x.style.backgroundColor = "red";
+              // set text style color to white
+              x.style.color = "white"; 
+              // center-align the text
+              x.style.textAlign = "center";
+           }
+        
+        </script> 
+    </body>
+</html>
