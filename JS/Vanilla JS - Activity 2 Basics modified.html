@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>JavaScript Activity 2</title>
+  </head>
+  
+  <body>
+    <script>
+    /*
+     // Activity 2
+      
+      /* Write a JavaScript program to divide two numbers, using the input from the user, and print the result on the screen.
+
+      Expected Output :
+
+      Input the first number: 6
+      Input the second number: 2
+      The division of the first number and the second number is: 3 */ 
+      
+      // function that prompts the user to add the numbers
+      function calculate() { 
+        let num1 = Number(prompt("Please input your first number: "));
+        let num2 = Number(prompt("Please input your second number: "));
+     
+      // if statement to check if the number added is 0 and prompt to calculation
+      if ( num1 === 0 ) {
+        Number("Error: please input a valid non-zero number.");
+        calculate();
+      } else if ( num2 === 0 ) {
+        Number("Error: please input a valid non-zero number.");
+        calculate();
+       } 
+      
+      // declaration of the result function
+      let result = num1 / num2 ;
+      
+      // output of the result
+      alert(`The division of ${num1} and ${num2} is ${result}.`);
+      console.log(result);
+      }
+      
+     // calling the function to start the calculation
+     calculate();
+      
+    </script>
+  
+  </body>
+</html>
