@@ -7,6 +7,7 @@
   <body>
     <script>
       
+      /*
       // array declaration
       const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
       // declaring the initial value of sum
@@ -18,7 +19,23 @@
        }
        
       console.log(`The sum is ${sum}.`); // printing the final sum
-     
+      */
+      
+      
+       // array declaration
+      const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+      // declaration of the initial value of the variable sum
+      let sum = 0;
+      
+      // for loop iterating though the values of the array to calculate their sum 
+      for (let i = 0; i < arr.length; i++) {
+        // until i is < to arr.length, the sum of the array will add the next value, accessing every element of the array
+        sum += arr[i];
+       }
+      
+      // printing the final sum
+      console.log(`The sum is ${sum}.`);
+      
     </script>
   
   </body>
