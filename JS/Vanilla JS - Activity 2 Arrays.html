@@ -9,19 +9,17 @@
       
       // array declaration
       const arr = [20, 30, 25, 35, -16, 60, -100];
-      // declaring initial value f sum
+      // declaring initial value of sum as 0
       let sum = 0;
-      // declaring array length
-      let arlen = arr.length;
        
-      // for loop to calculate sum
-      for (let i = 0; i < arlen; i++) {
+      // loop to iterate through each value of the array
+      for (let i = 0; i < arr.length; i++) {
         sum += arr[i];            
       }
       
-        // declaring the variable used to calcuate the average
-        const aver = (sum / arlen).toFixed(1); 
-        // printing the result
+        // declaring the variable used to calcuate the average fixed to one decimal number
+        const aver = (sum / arr.length).toFixed(1); 
+        // printing the average
         console.log(`Average value of the array elements is : ${aver}.`); 
   
     </script>
