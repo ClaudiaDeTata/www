@@ -8,25 +8,32 @@
     <script>
  
     // declaring the array 
-    const array = [10, 2, 3, 4, 7];
-    // initializing the max value to the first element of the array
-    let maxNum = array[0];
+    const arr = [10, 2, 3, 4, 7];
+    
+     // function showing the array content
+    function firstFun() {
+      console.log(`The content of the array is: [${arr}]`)
+    };
+    
+    // calling the function for it to show the content
+    firstFun();
+    
+    // initializing the variable representing the max value to the first element of the array
+    let maxVal = arr[0];
       
-    // function declaration
-    function findMaxValue() {
-    // for loop used to find the max value if the array
-      for (let i = 1; i < array.length; i++) {
-        if (array[i] > maxNum) {
-          maxNum = array[i];
+    // function that finds the max value with a loop
+    function findMaxVal() {
+      for (let i = 1; i < arr.length; i++) {
+        // checking for each value if this is > than the first value of the array
+        if (arr[i] > maxVal) {
+          // declaring the max value as the last checked and the higher value of the array
+          maxVal = arr[i];
         } 
       } 
     }
     
-    // calling the function
-    findMaxValue();
     // printing the output
-    console.log(`The content of the array is: [${[array]}]`);
-    console.log(`The max value in the array is: ${maxNum}`); 
+      console.log(`The max value in the array is: ${maxVal}`);
      
     </script>
   
