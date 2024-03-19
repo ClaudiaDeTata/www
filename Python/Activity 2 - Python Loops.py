@@ -30,4 +30,11 @@ Important:
 Don't forget to comment your code.
 
 """
+
+# prompting the user to input the number
 num1 = int(input("Please choose the magic number: "))
+
+# for loop using the range() function to iterate variable x until 10 
+for x in range(1, 11):
+  # printing the multiplication between the number chosen by the user and the variable x and its result
+  print(num1, 'x', x, '=', num1*x)
