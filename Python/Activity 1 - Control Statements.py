@@ -15,7 +15,7 @@ Important:
 Don't forget to comment your code.
 
 """
-# promptinh the user to inout 3 numbers
+# prompting the user to input 3 numbers
 num1 = int(input("Please input the first number: "))
 
 num2 = int(input("Please input the second number: "))
