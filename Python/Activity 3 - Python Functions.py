@@ -28,4 +28,4 @@ def primeNum(num) :
     return True
 
 # printing the output
-print(primeNum(num))
+print(primeNum(15))

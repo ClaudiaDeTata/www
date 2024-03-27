@@ -14,4 +14,4 @@ num2 = int(input("Input the second number: "))
 # declaration of the variable result
 result = num1//num2
 # printing the result
-print("The div of the first number and the second number is:", result)
+print("The division of the first number and the second number is:", result)
