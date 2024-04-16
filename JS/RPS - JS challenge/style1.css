@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 body {
   font-family: Papyrus, fantasy;
   background-color: #CC66FF;
@@ -29,35 +29,4 @@ button {
 
 
 
-=======
-body {
-  font-family: Papyrus, fantasy;
-  background-color: #CC66FF;
-}
 
-.col1 {
-  text-align: center;
-  margin-top: 20px;
-}
-
-button {
-  border: round;
-  border-radius: 50%;
-  color: black;
-  padding: 20px 45px;
-  text-align: center;
-  display: inline-block;
-  font-size: 35px;
-  margin: 20px 10px;
-  cursor: pointer;
-  background-color: yellow;  
-}
-
-.col2 {
-  display: flex;
-  justify-content: center;
-}
-
-
-
->>>>>>> 674825763fe0016b8fd343cee7edae6bfa66201f
