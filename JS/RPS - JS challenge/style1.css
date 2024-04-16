@@ -10,7 +10,6 @@ body {
 }
 
 button {
-  border: round;
   border-radius: 50%;
   color: black;
   padding: 20px 45px;
