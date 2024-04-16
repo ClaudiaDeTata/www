@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 // function that will set up the value for playerMove, computerMove and result to be appear in the input forms 
 // declaration of the variables for computerMove randomized moves and result as a function that takes as parameters playerMove (move) and computerMove
  function play(move) {
@@ -51,7 +51,7 @@ paper.addEventListener('click', function () {
 
 scissors.addEventListener('click', function () {
   play('scissors');
-=======
+
 // function that will set up the value for playerMove, computerMove and result to be appear in the input forms 
 // declaration of the variables for computerMove randomized moves and result as a function that takes as parameters playerMove (move) and computerMove
  function play(move) {
@@ -104,5 +104,4 @@ paper.addEventListener('click', function () {
 
 scissors.addEventListener('click', function () {
   play('scissors');
->>>>>>> 674825763fe0016b8fd343cee7edae6bfa66201f
 });
